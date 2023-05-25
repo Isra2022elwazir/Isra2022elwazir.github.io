@@ -1,34 +1,177 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<html>
-<head>
-
-<link rel="stylesheet" type="text/css" href="style.css" /> 
-<meta charset="UTF-8">
-   	    <title>
-   	    	Isra Profolio website
-   	    </title>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name=" viewport" content="width=device-width, initial scale=1.0"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6f22171dc1.js" crossorigin="anonymous"></script> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
+    
+</body>
+</html>
+       
+        <title>
+            Isra Elwazir
+        </title> 
+        <!-- connect css file to html file --> 
+        <link rel="stylesheet" href="style.css">
 
-<header>
-	  	     	<div class="topnav">
-  <center><a href="index.html">Home</a></center>
-  <center><a href="projects.html">Projects</a></center>
-  <center><a href="AboutMe.html">About Me</a></center>
-  <center><a href="contact.html">Contact Me</a></center>
- 
-</div> 
-</header>
+    </head>
+    <body>
+        <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src=" images/logo.png" class="logo">
+           
+                <ul>
+                    <li><a href="file:///Users/israelwazir/Desktop/IsraProfile/index.html">Home</a></li>
+                    <li><a href= "file:///Users/israelwazir/Desktop/IsraProfile/about.html" target="_blank" >About</a></li>
+                    <li><a href="file:///Users/israelwazir/Desktop/IsraProfile/contact.html">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
+            <!-- The id attribute assigns an identifier to the <div> element --> 
+            <div class="header-text">
+                
+                <p class="display-6 animate__animated animate__rubberBand animate__"> Software engineer<span><i class="fa-solid fa-gear fa-spin"></i></span></p>
+                <h1 class="display-6 animate__animated animate__rubberBand animate__ animate__delay-1s">Hi, I am <span>Isra </span>Elwazir</h1>
+            </div>
+        </div>
+     
+        <!-----------------about-------------------->
+        <div id="about">
+            <div class="container">
+                <div class="rows">
+                    <div class="about-col-1">
+                    <img src="images/rain.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub">About me</h1>
+                        <p >I am a third year software engineer at the Univeristy of Western Ontario.<br>I enjoy travelling, eating, reading, and CODING!</p>
+                        <div class="tab-titles"></div>
+            
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p> 
+                            <p class="tab-links"onclick="opentab('education')">Education</p> 
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>software development</span><br>using Java,Pyhton, HTML, CSS, JavaScript, SQL, and SWIFT</li>
+                                <li><span>Software design</span><br>using Object Oriented Programming paradigms</li>
+                                <li><span>Experience using version control systems</span><br>such as Git</li>
+                                <li><span>Fundamental knowledge of core web principals</span><br>such as HTTP, browsers, and the DOM</li>
+                                <li><span>Designing efficient data structures and algorithms</span></li>
 
-<div class="main-page-text">
+
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>September 2020 to December 2020</span><br>Elementary school tutor</li>
+
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span> The Univeristy of Western Ontario<br>September 2021 to May 2026</span><br>candidate for a Bachelor of Engineering Science<br>from the Software Engineering program</li>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+
+
+<!---------------------services------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code fa-spin fa-spin-reverse"></i>
+                <h2>Web Design</h2>
+                <p>Create professional custom websites</p>
+        
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios fa-shake"></i>
+                <h2>App Design</h2>
+                <p>Design the front-end of applications</p>
+         
+            </div>
+            <div>
+                <i class="fa-solid fa-ghost fa-bounce"></i>
+                <h2>Game Development</h2>
+                <p>Develop different video games with different levels</p>
+            
+            </div>
+        </div>
+   
+         
+
+    </div>
+</div>
+<!--------------portfolio------------->
+<dive class="portfolio">
+    <div class="container">
+        <h1 class="sub">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/LunchT.png">
+                <div class="layer">
+                    <h3>IOS Application</h3>
+                    <p>This IOS app was intended to connect you for a lunch break with people around your campus</p>
+                    <a href="https://github.com/elwazirisra/LunchT"> GitHub <i class="fa-solid fa-code-branch fa-shake"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/game.png">
+                <div class="layer">
+                    <h3>Video Game</h3>
+                    <p>This is a simple RPG that consists of two levels. It was created using Python and PyGame</p>
+                    <a href="#"> GitHub <i class="fa-solid fa-code-branch fa-shake"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/elwazirisra" target="_blank" class="btn">More  <i class="fa-solid fa-code-branch"></i></a>
+
+    </div>
+</div>
+<!--------------contact------------->
+<div class="contact">
+
 </div>
 
-   	   	     <div class="sunset-image">
-   	   	     	<div class="sunset-text">
-   	   	     		<h1>I am Isra Elwazir</h1>
-   	   	     		<p>And I am a software Engineer</p>
-   	   	     		   <button ><a href="mailto: elwazirisra2002@gmail.com">Hire Me</button>
-   	   	     	</div>
-   	   	     </div>    	    
-</body>
-</html> 
+
+    <script>
+         var tablinks= document.getElementsByClassName("tab-links");
+         var tabcontents= document.getElementsByClassName("tab-contents");
+         function opentab(tabname){
+             for(tablink of tablinks){
+                 tablink.classList.remove("active-link")
+             }
+             for(tabcontent of tabcontents){
+                 tabcontent.classList.remove("active-tab")
+             
+             }
+             event.currentTarget.classList.add("active-link")
+             document.getElementById(tabname).classList.add("active-tab")
+            
+         }
+    </script> 
+  
+
+
+
+    </body>
+</html>
+
+  <!-- installing live server changes the url. live server allows you to open the website from vs --> 
