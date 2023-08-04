@@ -7,10 +7,15 @@
 
 }
 body{
-  
-    background: #000000;
-    /* color is for the text color */
-    color: #ffffff ;
+    background-color:#e999ff;
+    background-image:
+    radial-gradient(at 59% 70%, hsla(35,90%,69%,1) 0px, transparent 50%),
+    radial-gradient(at 70% 3%, hsla(220,91%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 28% 78%, hsla(244,89%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 38% 36%, hsla(172,73%,66%,1) 0px, transparent 50%),
+    radial-gradient(at 74% 72%, hsla(89,89%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 28% 94%, hsla(320,62%,69%,1) 0px, transparent 50%),
+    radial-gradient(at 53% 81%, hsla(280,87%,60%,1) 0px, transparent 50%);
 }
 #header{
     width: 100%;
@@ -49,7 +54,7 @@ nav ul li a::after{/* the double colon represents a pseudo element. represents a
     content: ' '; 
     width: 0;
     height: 3px;
-    background: #960e0e;
+    background: #f410c3;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -57,6 +62,7 @@ nav ul li a::after{/* the double colon represents a pseudo element. represents a
 }
 nav ul li a:hover::after{
     width:100%;
+    background:#e999ff;
 }
 
 .left-contact{
@@ -71,7 +77,7 @@ nav ul li a:hover::after{
  
 }
 .left-contact p i{
-    color: #960e0e;
+    color: #ab03a5;
     margin-right: 20px;
     font-size: 25px;
 
@@ -99,7 +105,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s ;
 }
 .social-icons a:hover{
-    color: #960e0e;
+    color: #ab03a5;
     transform: translateY(-5px);
 
 }
@@ -107,12 +113,12 @@ nav ul li a:hover::after{
     display: inline-block;
     margin: 50px auto;
     width:fit-content;
-    border: 1px solid #500303;
+    border: 1px solid #08e6df;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color: #ffffff;
-    background: #431717;
+    background: #ab03a5;
     transition: background 0.5s;
     margin-left: 30px;
 }
@@ -132,7 +138,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background:  #431717;
+    background:  #aacdd3;
     padding: 15px;
     margin: 15px 0; 
     color: rgb(239, 237, 237);
@@ -156,11 +162,23 @@ cursor:pointer;
     margin-top: 20px;
 }
 #msg{
-    color: #ee0202;
+    color: #ab0707;
     margin-top: -40px;
     display: block;
     font-size: 14px;
     
+}
+
+.bg-pic{
+    background-color:#99fffa;
+background-image:
+radial-gradient(at 78% 87%, hsla(3,93%,65%,1) 0px, transparent 50%),
+radial-gradient(at 21% 65%, hsla(283,81%,61%,1) 0px, transparent 50%),
+radial-gradient(at 6% 94%, hsla(35,89%,63%,1) 0px, transparent 50%),
+radial-gradient(at 41% 17%, hsla(352,80%,68%,1) 0px, transparent 50%),
+radial-gradient(at 67% 36%, hsla(287,84%,73%,1) 0px, transparent 50%),
+radial-gradient(at 24% 42%, hsla(192,79%,64%,1) 0px, transparent 50%),
+radial-gradient(at 62% 7%, hsla(151,72%,75%,1) 0px, transparent 50%);
 }
 
         
