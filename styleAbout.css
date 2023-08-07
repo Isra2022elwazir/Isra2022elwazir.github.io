@@ -7,28 +7,17 @@
 
 }
 body{
+    background-color:#000000;
   
-    background: #000000;
-    /* color is for the text color */
-    color: #ffffff ;
 }
-/* addding # before header because it is an id */
 #header{
     width: 100%;
     height: 100%; 
-    background-image: url(images/glasses.jpeg);
+   
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
-.container{
-    padding: 0px 2%;
-}
-.header-text i{
-    font-size:20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
 
-}
 
 
 nav{
@@ -36,7 +25,6 @@ nav{
      align-items: center;
      justify-content: space-between;
      flex-wrap: wrap;
-    
 
 }
 .logo{
@@ -47,63 +35,56 @@ nav ul li{/* this indicates sthat we will be chainging the list display */
     display:inline-block;/* an inline element does not start on a new line and it only takes us as much space as necesssary */
     list-style: none;
     margin: 1px 50px;
-    color: #ffffff;
-
-    
 
 }
 nav ul li a{/* the 'a' means we can change how the link looks*/
- color: #fff;
+ color: #ffffff;
  text-decoration: none;
- font-size: 18px ;
+ font-size: 20;
  position: relative;
 }
 nav ul li a::after{/* the double colon represents a pseudo element. represents an actual part of the dom*/
     content: ' '; 
     width: 0;
     height: 3px;
-    background: #960e0e;
+    background: #f410c3;
     position: absolute;
     left: 0;
     bottom: -6px;
     transition: 0.5s;
-    text-decoration:  none;
-
 }
 nav ul li a:hover::after{
     width:100%;
-
-    
+    background:#ff9999;
 }
+
+
+
+
+
+
 .header-text{
     margin-top: 20%;
     font-size: 9px;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.1), #995252);
+    background-color:hsla(358,100%,80%,1);
+ background-image:
+ radial-gradient(at 34% 10%, hsla(233,99%,63%,1) 0px, transparent 50%),
+ radial-gradient(at 44% 81%, hsla(247,58%,59%,1) 0px, transparent 50%),
+ radial-gradient(at 59% 14%, hsla(229,75%,58%,1) 0px, transparent 50%),
+ radial-gradient(at 71% 53%, hsla(249,91%,72%,1) 0px, transparent 50%),
+ radial-gradient(at 49% 25%, hsla(222,44%,38%,1) 0px, transparent 50%),
+ radial-gradient(at 0% 43%, hsla(229,47%,60%,1) 0px, transparent 50%),
+ radial-gradient(at 83% 34%, hsla(240,77%,50%,1) 0px, transparent 50%);
     text-align: center;
+     border-radius: 20px;
   
-    border-radius: 10px;
-   
-}
-.header-text h1{
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-    height: 100%;
-}
-.header-text i{
-    font-size: 50px;
-    margin-top: 20px;
-    text-align: center;
+ }
+ 
 
-}
-.copyright{
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #351c1c;
-    font-weight:  300;
-    margin-top: 20px;
-}
 
+
+
+
+ 
 

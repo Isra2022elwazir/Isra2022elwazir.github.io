@@ -8,19 +8,12 @@
 }
 body{
     background-color:#e999ff;
-    background-image:
-    radial-gradient(at 59% 70%, hsla(35,90%,69%,1) 0px, transparent 50%),
-    radial-gradient(at 70% 3%, hsla(220,91%,76%,1) 0px, transparent 50%),
-    radial-gradient(at 28% 78%, hsla(244,89%,70%,1) 0px, transparent 50%),
-    radial-gradient(at 38% 36%, hsla(172,73%,66%,1) 0px, transparent 50%),
-    radial-gradient(at 74% 72%, hsla(89,89%,62%,1) 0px, transparent 50%),
-    radial-gradient(at 28% 94%, hsla(320,62%,69%,1) 0px, transparent 50%),
-    radial-gradient(at 53% 81%, hsla(280,87%,60%,1) 0px, transparent 50%);
+  
 }
 #header{
     width: 100%;
     height: 100%; 
-    background-image: url(images/web.png);
+   
     background-size: cover;
     background-position:center;
 }
@@ -62,7 +55,7 @@ nav ul li a::after{/* the double colon represents a pseudo element. represents a
 }
 nav ul li a:hover::after{
     width:100%;
-    background:#e999ff;
+    background:#ff9999;
 }
 
 .left-contact{
@@ -77,7 +70,7 @@ nav ul li a:hover::after{
  
 }
 .left-contact p i{
-    color: #ab03a5;
+    color: #000000;
     margin-right: 20px;
     font-size: 25px;
 
@@ -100,12 +93,12 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #453a3a;
     display: inline-block;
     transition: transform 0.5s ;
 }
 .social-icons a:hover{
-    color: #ab03a5;
+    color: #902d2d;
     transform: translateY(-5px);
 
 }
@@ -113,12 +106,12 @@ nav ul li a:hover::after{
     display: inline-block;
     margin: 50px auto;
     width:fit-content;
-    border: 1px solid #08e6df;
+    border: 1px solid #61030c;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color: #ffffff;
-    background: #ab03a5;
+    background: #da8181;
     transition: background 0.5s;
     margin-left: 30px;
 }
@@ -138,10 +131,10 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background:  #aacdd3;
+    background:  #db9898;
     padding: 15px;
     margin: 15px 0; 
-    color: rgb(239, 237, 237);
+    color: rgb(245, 245, 245);
     font-size: 18px;
     border-radius: 6px;
 
@@ -153,16 +146,9 @@ font-size: 18px;
 margin-top: 20px;
 cursor:pointer;
 }
-.copyright{
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #431717;
-    font-weight:  300;
-    margin-top: 20px;
-}
+
 #msg{
-    color: #ab0707;
+    color: #680505;
     margin-top: -40px;
     display: block;
     font-size: 14px;
@@ -170,19 +156,6 @@ cursor:pointer;
 }
 
 .bg-pic{
-    background-color:#99fffa;
-background-image:
-radial-gradient(at 78% 87%, hsla(3,93%,65%,1) 0px, transparent 50%),
-radial-gradient(at 21% 65%, hsla(283,81%,61%,1) 0px, transparent 50%),
-radial-gradient(at 6% 94%, hsla(35,89%,63%,1) 0px, transparent 50%),
-radial-gradient(at 41% 17%, hsla(352,80%,68%,1) 0px, transparent 50%),
-radial-gradient(at 67% 36%, hsla(287,84%,73%,1) 0px, transparent 50%),
-radial-gradient(at 24% 42%, hsla(192,79%,64%,1) 0px, transparent 50%),
-radial-gradient(at 62% 7%, hsla(151,72%,75%,1) 0px, transparent 50%);
-}
-
-        
+    background-color:rgb(189, 119, 132);
     
-
-
-
+}
